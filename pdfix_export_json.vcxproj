@@ -108,10 +108,8 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>mkdir "$(ProjectDir)\lib\pdfix"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.h" "$(ProjectDir)lib\pdfix\Pdfix.h"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.cpp" "$(ProjectDir)lib\pdfix\Pdfix.cpp"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\win\pdfix_d.dll" "$(ProjectDir)bin\pdfix_d.dll"</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -129,10 +127,8 @@ copy /Y "$(ProjectDir)..\..\pdfix\bin\win\pdfix_d.dll" "$(ProjectDir)bin\pdfix_d
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>mkdir -p "$(ProjectDir)\lib\pdfix"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.h" "$(ProjectDir)lib\pdfix\Pdfix.h"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.cpp" "$(ProjectDir)lib\pdfix\Pdfix.cpp"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\win\pdfix64_d.dll" "$(ProjectDir)bin\pdfix64_d.dll"</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -154,10 +150,8 @@ copy /Y "$(ProjectDir)..\..\pdfix\bin\win\pdfix64_d.dll" "$(ProjectDir)bin\pdfix
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>mkdir "$(ProjectDir)\lib\pdfix"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.h" "$(ProjectDir)lib\pdfix\Pdfix.h"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.cpp" "$(ProjectDir)lib\pdfix\Pdfix.cpp"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\win\pdfix.dll" "$(ProjectDir)bin\pdfix.dll"</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -179,10 +173,8 @@ copy /Y "$(ProjectDir)..\..\pdfix\bin\win\pdfix.dll" "$(ProjectDir)bin\pdfix.dll
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
     <PreBuildEvent>
-      <Command>mkdir -p "$(ProjectDir)\lib\pdfix"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.h" "$(ProjectDir)lib\pdfix\Pdfix.h"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\include\c++\Pdfix.cpp" "$(ProjectDir)lib\pdfix\Pdfix.cpp"
-copy /Y "$(ProjectDir)..\..\pdfix\bin\win\pdfix64.dll" "$(ProjectDir)bin\pdfix64.dll"</Command>
+      <Command>
+      </Command>
     </PreBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
